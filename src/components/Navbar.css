@@ -1,0 +1,42 @@
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left a,
+.nav-left .logo {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-left .logo {
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right input {
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.nav-right button {
+    padding: 5px 10px;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
